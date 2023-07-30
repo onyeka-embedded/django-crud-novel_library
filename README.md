@@ -6,4 +6,4 @@ Users can read brief summary of the novel, they can also be redirected to where 
   https://github.com/onyeka-embedded/django-crud-novel_library/blob/main/mycrud/screenshoots/1.png
   https://github.com/onyeka-embedded/django-crud-novel_library/blob/main/mycrud/screenshoots/2.PNG
   https://github.com/onyeka-embedded/django-crud-novel_library/blob/main/mycrud/screenshoots/3.PNG
-  https://github.com/onyeka-embedded/django-crud-novel_library/blob/main/mycrud/screenshoots/4.PNG
+  [https://github.com/onyeka-embedded/django-crud-novel_library/blob/main/mycrud/screenshoots/4.PNG](https://github.com/onyeka-embedded/django-crud-novel_library/blob/main/mycrud/screenshoots/1.png?raw=true)https://github.com/onyeka-embedded/django-crud-novel_library/blob/main/mycrud/screenshoots/1.png?raw=true
