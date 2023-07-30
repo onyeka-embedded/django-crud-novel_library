@@ -5,6 +5,9 @@ Users can read brief summary of the novel, they can also be redirected to where 
 - Screenshots
   
 ![List of all the novels](mycrud/screenshoots/1.png)
+
 ![For for adding novels](mycrud/screenshoots/2.PNG)
+
 ![Novel summary](mycrud/screenshoots/3.PNG)
+
 ![Delete novel](mycrud/screenshoots/4.PNG)
