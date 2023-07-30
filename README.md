@@ -10,4 +10,4 @@ Users can read brief summary of the novel, they can also be redirected to where 
 
 ![Novel summary](mycrud/screenshoots/3.PNG)
 
-![Delete novel](mycrud/screenshoots/4.PNG)
+![Delete novel from list](mycrud/screenshoots/4.PNG)
