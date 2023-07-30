@@ -3,4 +3,4 @@ Novel App is a django app is used to display novels, showing their names, author
 Users can read brief summary of the novel, they can also be redirected to where they can dowload the novel
 
 - Screenshots
-![](screenshoots/1.png)
+![](mycrud/screenshoots/1.png)
