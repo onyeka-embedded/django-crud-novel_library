@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container text-left">
+    &nbsp
+    <h5>Add New Novel</h5>
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <a type="button" class="btn btn-danger" href="{%url 'add_novel' %}">Cancel</a>
+        <button type="submit" class="btn btn-success">Update Novel</button>
+    </form>
+</div>
+{% endblock %}

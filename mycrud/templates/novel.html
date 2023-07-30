@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container text-left">>
+    &nbsp
+    <h2 class="text-center">{{novel.title}}</h2>
+    &nbsp
+    <h1>By {{novel.author}}</h1>
+    <p>{{novel.description}}</p>
+
+    <a type="button" class="btn btn-primary" href="{% url 'allnovels' %}">Back</a>
+    <a type="button" class="btn btn-secondary" href="{{novel.novel_link}}" target="_blank">Click To Download</a>
+</div>
+{% endblock %}

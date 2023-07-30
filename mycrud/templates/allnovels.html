@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container text-left">
+    &nbsp
+    <h2 class="text-center">MY LIBRARY</h2>
+    &nbsp
+    <a type="button" class="btn btn-success float-righ" href="{% url 'add_novel' %}">Add Novel</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Book Title</th>
+                <th scope="col">Author</th>
+                <th scope="col">Published Year</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for novel in novels %}
+            <tr>
+                <td>{{ novel.title }}</td>
+                <td>{{ novel.author }}</td>
+                <td>{{ novel.year }}</td>
+                <td><a type="button" class="btn btn-primary" href="{% url 'novel' novel.id %}">View</a>
+                    <a type="button" class="btn btn-info" href="{% url 'update_novel' novel.id %}">Update</a>
+                    <a type="button" class="btn btn-danger" href="{% url 'delete-novel' novel.id %}">Remove</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+{% endblock %}
